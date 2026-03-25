@@ -60,7 +60,7 @@ Para fins de avaliação, este projeto seguiu rigorosamente o fluxo de versionam
 
 ## ⚙️ Como Executar
 
-1. Clone o repositório: `git clone https://github.com/SEU_USUARIO/NerdVault.git`
+1. Clone o repositório: `git clone https://github.com/cassiaemanuelly/NerdVault-API.git`
 2. Certifique-se de ter o **Maven** e o **Java 17** instalados.
 3. Execute a aplicação via terminal: `./mvnw spring-boot:run`.
 4. Acesse o Console do H2 para validar os dados: `http://localhost:8080/h2-console`.
