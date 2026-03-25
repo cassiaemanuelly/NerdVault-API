@@ -17,7 +17,7 @@ A API permite gerenciar o ciclo de vida completo de um acervo de filmes (CRUD):
 
 ---
 
-## 🛠️ Tecnologias e Dependências
+## 🛠️ Tecnologias
 
 * **Linguagem**: Java 17
 * **Framework**: Spring Boot 3.x
@@ -68,5 +68,5 @@ Para fins de avaliação, este projeto seguiu rigorosamente o fluxo de versionam
 ---
 
 ### 🎓 Desenvolvido por:
-**Cássia (Tati)**
-Estudante de Engenharia de Software - FIAP.
+**Cássia Emanuelly**
+Estudante de SI - FIAP.
