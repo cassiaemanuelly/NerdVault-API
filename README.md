@@ -1,6 +1,8 @@
 # 🎬 NerdVault - Gerenciador de Filmes Geek
 
-O **NerdVault** é uma API REST desenvolvida para centralizar e organizar o catálogo de filmes das suas franquias favoritas. Este projeto faz parte da atividade prática de versionamento profissional da disciplina de **Dev. Software Enge**.
+O **NerdVault** é uma API REST desenvolvida para centralizar e organizar o catálogo de filmes das suas franquias favoritas. Este projeto foi construído utilizando **Java 17** e **Spring Boot 3**, focando em uma arquitetura limpa e funcional.
+
+Este repositório faz parte da atividade prática de versionamento profissional da disciplina de **Dev. Software Enge**.
 
 ---
 
@@ -15,31 +17,56 @@ A API permite gerenciar o ciclo de vida completo de um acervo de filmes (CRUD):
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
-* **Java 17**
-* **Spring Boot 3**
-* **Spring Data JPA**
-* **H2 Database** (Banco em memória)
-* **Lombok**
+## 🛠️ Tecnologias e Dependências
+
+* **Linguagem**: Java 17
+* **Framework**: Spring Boot 3.x
+* **Banco de Dados**: H2 (Banco em memória para execução imediata)
+* **Persistência**: Spring Data JPA com Hibernate
+* **Utilitários**: Lombok
 
 ---
 
-## 📂 Fluxo de Desenvolvimento (GitFlow)
-[cite_start]Seguindo os requisitos da atividade[cite: 8], o projeto foi estruturado em etapas:
+## 🧬 Documentação de Desenvolvimento (Fluxo Git)
 
-**Etapa 1**: Setup inicial e primeiro commit na branch `main`[cite: 9, 15].
-**Etapa 2**: Criação da branch `feature/cadastro-filmes` para implementação da entidade, repositório e endpoints básicos de cadastro e listagem.
-**Etapa 3**: Criação da branch `feature/busca-e-manutencao` para implementar busca por franquia, atualização e exclusão.
+Para fins de avaliação, este projeto seguiu rigorosamente o fluxo de versionamento solicitado:
 
-## 📡 Endpoints da API
-- `GET /filmes`: Lista todos os filmes.
-- `GET /filmes/busca?franquia=Nome`: Busca filmes por franquia.
-- `POST /filmes`: Cadastra um novo filme.
-- `PUT /filmes/{id}`: Atualiza os dados de um filme.
-- `DELETE /filmes/{id}`: Remove um filme do catálogo.
+### **Etapa 1: Projeto Inicial**
+* Inicialização do Git e primeiro commit estrutural realizado diretamente na branch `main`.
+
+### **Etapa 2: Primeira Solicitação**
+* **Branch**: `feature/cadastro-filmes`
+* **Melhoria**: Implementação da entidade `Filme`, `FilmeRepository` e endpoints de cadastro e listagem.
+* **Ação**: Pull Request aberto e merge realizado na `main`.
+
+### **Etapa 3: Segunda Solicitação**
+* **Branch**: `feature/busca-e-manutencao`
+* **Melhoria**: Adição de busca por franquia, edição (`PUT`) e exclusão (`DELETE`).
+* **Ação**: Segundo Pull Request finalizado com merge na branch principal.
+
+---
+
+## 📡 Guia de Utilização (Endpoints)
+
+| Método | Endpoint | Descrição |
+| :--- | :--- | :--- |
+| **POST** | `/filmes` | Cadastra um novo filme no acervo. |
+| **GET** | `/filmes` | Lista todos os filmes cadastrados. |
+| **GET** | `/filmes/busca` | Busca filmes por franquia (ex: `?franquia=Marvel`). |
+| **PUT** | `/filmes/{id}` | Atualiza os dados de um filme existente. |
+| **DELETE** | `/filmes/{id}` | Remove um filme do catálogo pelo ID. |
+
+---
 
 ## ⚙️ Como Executar
-1. Clone o repositório.
-2. Certifique-se de ter o Maven instalado.
-3. Execute o comando: `./mvnw spring-boot:run`.
-4. O sistema estará disponível em `http://localhost:8080`.
+
+1. Clone o repositório: `git clone https://github.com/SEU_USUARIO/NerdVault.git`
+2. Certifique-se de ter o **Maven** e o **Java 17** instalados.
+3. Execute a aplicação via terminal: `./mvnw spring-boot:run`.
+4. Acesse o Console do H2 para validar os dados: `http://localhost:8080/h2-console`.
+
+---
+
+### 🎓 Desenvolvido por:
+**Cássia (Tati)**
+Estudante de Engenharia de Software - FIAP.
