@@ -1,9 +1,8 @@
-# 🎬 NerdVault - Gerenciador de Filmes Nerd
+# 🎬 NerdVault - Gerenciador de Filmes Geek
 
-Projeto desenvolvido para a disciplina de **Dev. [cite_start]Software Enge** da **FIAP**, com o objetivo de praticar o fluxo de versionamento profissional utilizando Git e GitHub[cite: 2, 4].
+O **NerdVault** é uma API REST desenvolvida para centralizar e organizar o catálogo de filmes das suas franquias favoritas. 
 
-## 🚀 O Projeto
-O **NerdVault** é uma API REST para gerenciamento de um catálogo de filmes voltado ao público nerd, permitindo organizar títulos por franquias e anos de lançamento.
+Este repositório faz parte da atividade prática de versionamento profissional da disciplina de **Dev. [cite_start]Software Enge**[cite: 1, 2].
 
 ## 🛠️ Tecnologias Utilizadas
 - **Java 17**
