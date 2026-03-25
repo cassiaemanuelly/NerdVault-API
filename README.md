@@ -1,6 +1,6 @@
 # 🎬 NerdVault - Gerenciador de Filmes Geek
 
-O **NerdVault** é uma API REST desenvolvida para centralizar e organizar o catálogo de filmes das suas franquias favoritas. Este projeto foi construído utilizando **Java 17** e **Spring Boot 3**, focando em uma arquitetura limpa e funcional.
+O **NerdVault** é uma API REST desenvolvida para centralizar e organizar o catálogo de filmes das suas franquias favoritas. Este projeto foi construído utilizando **Java 21** e **Spring Boot 4**, focando em uma arquitetura limpa e funcional.
 
 Este repositório faz parte da atividade prática de versionamento de código da disciplina de **Gestão Corporativa de TI**.
 
@@ -21,7 +21,7 @@ A API permite gerenciar o ciclo de vida completo de um acervo de filmes (CRUD):
 
 * **Linguagem**: Java 21
 * **Framework**: Spring Boot 4.0.4
-* **Banco de Dados**: H2 (Banco em memória para execução imediata)
+* **Banco de Dados**: H2 
 * **Persistência**: Spring Data JPA com Hibernate
 * **Utilitários**: Lombok
 
