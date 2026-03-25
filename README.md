@@ -6,7 +6,7 @@ Este repositório faz parte da atividade prática de versionamento de código da
 
 ---
 
-## 🚀 Funcionalidades da Aplicação
+##  Funcionalidades da Aplicação
 
 A API permite gerenciar o ciclo de vida completo de um acervo de filmes (CRUD):
 
@@ -17,7 +17,7 @@ A API permite gerenciar o ciclo de vida completo de um acervo de filmes (CRUD):
 
 ---
 
-## 🛠️ Tecnologias
+##  Tecnologias
 
 * **Linguagem**: Java 21
 * **Framework**: Spring Boot 4.0.4
@@ -27,7 +27,7 @@ A API permite gerenciar o ciclo de vida completo de um acervo de filmes (CRUD):
 
 ---
 
-## 🧬 Documentação de Desenvolvimento (Fluxo Git)
+##  Documentação de Desenvolvimento (Fluxo Git)
 
 Para fins de avaliação, este projeto seguiu rigorosamente o fluxo de versionamento solicitado:
 
@@ -46,7 +46,7 @@ Para fins de avaliação, este projeto seguiu rigorosamente o fluxo de versionam
 
 ---
 
-## 📡 Guia de Utilização (Endpoints)
+##  Guia de Utilização (Endpoints)
 
 | Método | Endpoint | Descrição |
 | :--- | :--- | :--- |
@@ -58,7 +58,7 @@ Para fins de avaliação, este projeto seguiu rigorosamente o fluxo de versionam
 
 ---
 
-## ⚙️ Como Executar
+##  Como Executar
 
 1. Clone o repositório: `git clone https://github.com/cassiaemanuelly/NerdVault-API.git`
 2. Certifique-se de ter o **Maven** e o **Java 21** instalados.
@@ -67,6 +67,6 @@ Para fins de avaliação, este projeto seguiu rigorosamente o fluxo de versionam
 
 ---
 
-### 🎓 Desenvolvido por:
+###  Desenvolvido por:
 **Cássia Emanuelly**
 Estudante de SI - FIAP.
