@@ -19,8 +19,8 @@ A API permite gerenciar o ciclo de vida completo de um acervo de filmes (CRUD):
 
 ## 🛠️ Tecnologias
 
-* **Linguagem**: Java 17
-* **Framework**: Spring Boot 3.x
+* **Linguagem**: Java 21
+* **Framework**: Spring Boot 4.0.4
 * **Banco de Dados**: H2 (Banco em memória para execução imediata)
 * **Persistência**: Spring Data JPA com Hibernate
 * **Utilitários**: Lombok
